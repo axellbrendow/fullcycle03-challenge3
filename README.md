@@ -13,5 +13,13 @@ npm i
 npm i -g serverless
 sls offline start
 
-# access http:localhost:3000/dev/soma?a=1&b=3
+# access http://localhost:3000/dev/soma?a=1&b=3
+```
+
+or
+
+```
+sudo docker container run -p 3000:3000 --name fcc3 axell13/fullcycle03-challenge3
+
+# access http://localhost:3000/dev/soma?a=1&b=3
 ```
