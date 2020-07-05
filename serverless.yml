@@ -1,0 +1,16 @@
+service: calc
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  soma:
+    handler: handler.soma
+    events:
+      - http:
+          path: /soma
+          method: get
+
+plugins:
+  - serverless-offline

@@ -1,0 +1,28 @@
+{
+  "name": "fullcycle03-challenge3",
+  "version": "1.0.0",
+  "description": "serverless endpoint to sum two values",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axell-brendow/fullcycle03-challenge3.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda"
+  ],
+  "author": "axell-brendow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axell-brendow/fullcycle03-challenge3/issues"
+  },
+  "homepage": "https://github.com/axell-brendow/fullcycle03-challenge3#readme",
+  "devDependencies": {
+    "serverless-offline": "^6.4.0"
+  },
+  "dependencies": {}
+}
