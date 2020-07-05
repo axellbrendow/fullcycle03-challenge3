@@ -1,6 +1,6 @@
 # fullcycle03-challenge3
 
-Challenge 3 of the Full Cycle Marathon 3.0 - serverless endpoint
+Challenge 3 of the [Full Cycle Marathon](https://maratona.fullcycle.com.br/) 3.0 - serverless endpoint
 
 Simple serverless lambda function to sum two parameters.
 
