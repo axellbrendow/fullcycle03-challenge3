@@ -6,7 +6,7 @@ module.exports.soma = async event => {
 
   if (!query)
     body = {
-      error: { message: "Parâmetros inexistentes. Tente /soma?a=1&b=2" },
+      error: { message: "Non existing parameters. Try /soma?a=1&b=2" },
     };
   else {
     const a = Number(query.a);
@@ -14,7 +14,7 @@ module.exports.soma = async event => {
 
     body =
       !a || !b
-        ? { error: { message: "Parâmetros não numéricos. Ex.: /soma?a=1&b=c" } }
+        ? { error: { message: "Non numeric parameters. Ex.: /soma?a=1&b=c" } }
         : { resultado: a + b };
   }
 
