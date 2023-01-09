@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/axell-brendow/fullcycle03-challenge3#readme",
   "devDependencies": {
-    "serverless-offline": "^6.4.0"
+    "serverless-offline": "^12.0.4"
   },
   "dependencies": {}
 }
